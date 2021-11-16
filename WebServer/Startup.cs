@@ -2,18 +2,15 @@ using FreeSql;
 using FreeSql.Aop;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using Sys;
-using Sys.BaseEntitys;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+using System.IO;
+using System.Reflection;
+using WebServer.Commons;
+using WebServer.Commons.BaseEntitys;
 
 namespace WebServer
 {
@@ -35,18 +32,15 @@ namespace WebServer
 
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
-        // 改方法填写服务配置
+        // 该方法填写服务配置
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
-            services.AddSwaggerGen(options =>
-                options.SwaggerDoc("Sys", new OpenApiInfo() { Title = "1111", Version = "all" }));//配置标题
             FreeSqlConfig(services);
-            //SwaggerConfig(services, "台院:MES系统");
+            SwaggerConfig(services, "台州学院:MES轻量化系统开发Api");
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        // 改方法填写中间件
+        // 该方法填写中间件
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseSwagger();//使用Swagger
@@ -92,7 +86,7 @@ namespace WebServer
                     {
                         switch (e.Property.Name)
                         {
-                            case nameof(DataEntity.CreatedBy):e.Value = RT.CurUserId;break;//创建人Id
+                            case nameof(DataEntity.CreatedBy): e.Value = RT.CurUserId; break;//创建人Id
                             case nameof(DataEntity.CreatedByName): e.Value = RT.CurUserName; break;//创建人名称
                             case nameof(DataEntity.CreatedTime): e.Value = DateTime.Now; break;//当前时间
                         }
@@ -126,8 +120,11 @@ namespace WebServer
         /// </summary>
         public void SwaggerConfig(IServiceCollection services, string title)
         {
-            services.AddSwaggerGen(options =>
-                options.SwaggerDoc("Sys", new OpenApiInfo() { Title = title, Version = "all" }));//配置标题
+            services.AddMvc();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("Sys", new OpenApiInfo { Title = title, Version = "all" });
+            });
         }
         #endregion
 

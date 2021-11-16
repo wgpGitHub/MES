@@ -5,11 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FreeSql.All" Version="2.6.100" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Commons\Sys\Sys.csproj" />
+    <Folder Include="Commons\BaseEntitys\Enums\" />
+    <Folder Include="Modules\Rbacs\Service\" />
   </ItemGroup>
 
 </Project>
