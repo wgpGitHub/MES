@@ -1,0 +1,15 @@
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\bin\Debug\netstandard2.0\Sys.Frames.deps.json
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\bin\Debug\netstandard2.0\Sys.Frames.dll
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\bin\Debug\netstandard2.0\Sys.Frames.pdb
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\bin\Debug\netstandard2.0\Sys.dll
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\bin\Debug\netstandard2.0\Sys.Rbacs.Entity.dll
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\bin\Debug\netstandard2.0\Sys.Rbacs.Entity.pdb
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\bin\Debug\netstandard2.0\Sys.pdb
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\obj\Debug\netstandard2.0\Sys.Frames.csproj.AssemblyReference.cache
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\obj\Debug\netstandard2.0\Sys.Frames.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\obj\Debug\netstandard2.0\Sys.Frames.AssemblyInfoInputs.cache
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\obj\Debug\netstandard2.0\Sys.Frames.AssemblyInfo.cs
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\obj\Debug\netstandard2.0\Sys.Frames.csproj.CoreCompileInputs.cache
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\obj\Debug\netstandard2.0\Sys.Frames.csproj.CopyComplete
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\obj\Debug\netstandard2.0\Sys.Frames.dll
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys.Frames\obj\Debug\netstandard2.0\Sys.Frames.pdb

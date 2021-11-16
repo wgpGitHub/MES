@@ -1,0 +1,10 @@
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys\bin\Debug\netstandard2.0\Sys.deps.json
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys\bin\Debug\netstandard2.0\Sys.dll
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys\bin\Debug\netstandard2.0\Sys.pdb
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys\obj\Debug\netstandard2.0\Sys.csproj.AssemblyReference.cache
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys\obj\Debug\netstandard2.0\Sys.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys\obj\Debug\netstandard2.0\Sys.AssemblyInfoInputs.cache
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys\obj\Debug\netstandard2.0\Sys.AssemblyInfo.cs
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys\obj\Debug\netstandard2.0\Sys.csproj.CoreCompileInputs.cache
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys\obj\Debug\netstandard2.0\Sys.dll
+D:\VisualStudios\Projects\Systems\Sys\Commons\Sys\obj\Debug\netstandard2.0\Sys.pdb
